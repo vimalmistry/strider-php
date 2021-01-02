@@ -1,0 +1,21 @@
+{
+    "name": "vimalmistry/strider",
+    "authors": [
+        {
+            "name": "Vimal Mistry",
+            "email": "vimalmistry10@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "./",
+            "Strider\\": "./strider/"
+        },
+        "classmap": [
+            "./core/classes"
+        ]
+    }
+}
